@@ -25,7 +25,7 @@ def run():
     )
 
     st.write("# Welcome to Streamlit! 👋")
-    st.write("by MARC CHRISITAN D. TUMANENG")
+    st.write("by MARC CHRISTAN D. TUMANENG")
     
 
 
