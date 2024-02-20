@@ -1,6 +1,6 @@
 # Welcome to streamlit
 
-[My Streamlit App]{https://tumaneng-cs3a-1kktaf9endn.streamlit.app/}
+[My Streamlit App](https://tumaneng-cs3a-1kktaf9endn.streamlit.app/)
 
 This is the app you get when you run `streamlit hello`, extracted as its own app.
 
