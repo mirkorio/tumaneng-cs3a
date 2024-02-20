@@ -44,7 +44,6 @@ if st.button("Submit"):
         st.write("Ciphertext:", encrypted_text.decode())
         decrypted_text = xor_decrypt(encrypted_text,key)
         st.write("Decrypted:", decrypted_text.decode())
-    st.balloons()
     st.snow()
 
 
