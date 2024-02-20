@@ -35,6 +35,8 @@ if st.button("Submit"):
 
     if plaintext.decode() == key.decode():
         st.write("Plaintext should not be equal to the key")
+    elif not plaintext or not key:
+        st.write("Invalid, Enter your key!")
     elif len(plaintext.decode()) < len(key.decode()):
         st.write("Plaintext length should be equal or greater than the length of key")
     else:
