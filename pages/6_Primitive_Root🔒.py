@@ -44,6 +44,7 @@ def main():
     if prime(q):
         is_primitive_root, primitive_roots = check_primitive(g, q)
         print_result(q, g, is_primitive_root, primitive_roots)
+        st.snow()
     else:
         st.write(f"{q} is not a prime number!!")
 
